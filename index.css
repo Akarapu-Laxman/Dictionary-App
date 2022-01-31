@@ -1,0 +1,101 @@
+body {
+  padding: 10px;
+}
+.bg-container {
+  border: 2px solid black;
+  background-color: skyblue;
+  min-height: 100vh;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.heading {
+  font-size: 52px;
+}
+#input {
+  width: 50%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+#define {
+  margin-right: 10px;
+}
+#reset {
+  margin-left: 10px;
+}
+.bottom-container {
+  max-width: 600px;
+  background-color: snow;
+  border-radius: 15px;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  max-width: 500px;
+}
+.searched-list-container {
+}
+.searched-words {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table {
+}
+button {
+  padding: 10px 50px 10px 50px;
+}
+.wordName {
+  font-weight: bold;
+  font-size: 20px;
+}
+.list-container {
+  list-style-type: none;
+  /* border: 2px solid skyblue;
+  border-radius: 10px;  */
+}
+.li-element {
+  /* padding: 0px 10px 0px 10px;*/
+  padding-left: 10px;
+}
+span {
+  font-weight: bold;
+}
+.searchWord {
+  font-size: 35px;
+}
+
+.alert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: skyblue;
+  opacity: 0.6;
+}
+.alert-inner-container {
+  background-color: white;
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+  border-radius: 15px;
+}
+table {
+  text-align: center;
+}
+th td {
+  width: 40%;
+  padding: 5px;
+}
+thead th {
+  padding: 5px 10px 5px 10px;
+}
